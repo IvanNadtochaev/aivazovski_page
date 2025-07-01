@@ -10,24 +10,24 @@
     margin-bottom: 75px;
 }
 
-.contacts-btn {
+.contacts-link{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--color-main-black);
     width: 211px;
     height: 42px;
     border-radius: 21px;
     border:none;
-    margin-bottom: 38px;
+    margin: 0 auto 38px auto;
+    text-align: center;
 }
 
-.contacts-btn:hover{
+.contacts-link:hover{
     opacity: 0.8;
-}
-
-.contacts-link{
-    font-size: 24px;
-    font-weight: 500;
-    color: #FFFFFF;
-    display: block;
 }
 
 .socials{
